@@ -1,0 +1,27 @@
+# Sensitive config (contains DB & SMTP credentials)
+includes/config.php
+
+# Python logs & cache
+python/faceattend.log
+python/__pycache__/
+*.pyc
+
+# Uploaded face images (private student data)
+public/uploads/faces/*
+!public/uploads/faces/.gitkeep
+
+# Vendor dependencies (install via composer)
+vendor/
+
+# IDE / OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Python installer (too large for git)
+python-3.10*.exe
