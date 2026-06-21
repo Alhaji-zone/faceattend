@@ -66,7 +66,7 @@ require_once __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Tabs -->
-<div style="border-bottom:2px solid var(--gray-100); margin-bottom:20px; display:flex; gap:0">
+<div style="border-bottom:2px solid var(--gray-100); margin-bottom:20px; display:flex; gap:0; overflow-x:auto; flex-wrap:nowrap; -webkit-overflow-scrolling:touch;">
 <?php
 $tabs = [
     'pending'  => ['Pending',  '#f39c12', 'hourglass-split'],

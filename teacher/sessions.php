@@ -247,7 +247,7 @@ if ($action === 'live' && isset($_GET['id'])) {
   <!-- Marked students panel -->
   <div class="col-lg-5">
     <div class="card h-100 d-flex flex-column">
-      <div class="card-header d-flex justify-content-between align-items-center">
+      <div class="card-header d-flex flex-wrap gap-2 justify-content-between align-items-center">
         <span><i class="bi bi-people-fill me-2"></i>Marked Present</span>
         <div class="d-flex align-items-center gap-2">
           <span class="badge bg-success fs-6" id="countBadge"><?= count($markedList) ?></span>
